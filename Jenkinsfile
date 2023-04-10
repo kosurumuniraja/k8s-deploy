@@ -13,10 +13,10 @@ pipeline{
 	            script {
 	               withSonarQubeEnv(credentialsId: 'sonar-cred') {
     
-	                sh 'mvn clean package sonar:soanr'
-					}
-				}
+	                sh 'mvn clean package sonar:sonar'
 			}
+		    }
 		}
-	}	
+	}
+   }	
 }
