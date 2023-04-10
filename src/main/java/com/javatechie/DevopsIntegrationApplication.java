@@ -14,7 +14,7 @@ public class DevopsIntegrationApplication {
 		return "welcome to Mr. DevOps Youtube Channel";
 	}
 
-	public static void main(String[] args) {
+	public static void org(String[] args) {
 		SpringApplication.run(DevopsIntegrationApplication.class, args);
 	}
 
